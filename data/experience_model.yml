@@ -1,3 +1,16 @@
+# V4 — modèle générique d'expérience lecteur.
+#
+# Les seuils par défaut sont définis dans scripts/continuity.py :
+# - max_active_mysteries: 4
+# - max_new_concepts: 3
+# - max_new_names: 4
+# - max_new_rules: 2
+# - max_major_revelations: 1
+# - max_load_score: 8
+#
+# Un projet dérivé peut ajouter une section `thresholds:` pour les surcharger.
+# Nexus conserve volontairement les valeurs par défaut et aucune référence de projet.
+
 principles:
   single_dominant_question: true
   abstraction_requires_incarnation: true
@@ -5,15 +18,4 @@ principles:
   hierarchy_over_quantity: true
   beta_convergence_before_rewrite: true
 
-thresholds:
-  max_active_mysteries: 2
-  max_new_concepts: 1
-  max_new_names: 2
-  max_new_rules: 1
-  max_major_revelations: 1
-  max_load_score: 4
-
-project_guardrails:
-  audience: "3-6 ans"
-  anxiety_level: "faible"
-  interaction_density: "modérée"
+project_guardrails: {}
