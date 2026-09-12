@@ -1,3 +1,20 @@
-# NDR
+# NDR-0000 — Décision
 
-Template Nexus V5.
+**Statut : PROPOSE**  
+**Date : YYYY-MM-DD**  
+**Autorité : décisionnelle**
+
+## Contexte
+
+## Options considérées
+
+## Décision
+
+## Raisons
+
+## Conséquences
+
+## Fichiers et éléments à propager
+
+## Remplace / remplacé par
+
