@@ -1,1 +1,9 @@
-# Structure Nexus V5 — règles à compléter
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+.vscode/
+reports/audit-*.md
+reports/audit.json
+reports/revisions/*.md
+publication/manuscrit.md
