@@ -1,1 +1,37 @@
-# Workflow Nexus V5 — à adapter au projet Oui-Oui
+name: Nexus integrity
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile tools
+        run: python -m compileall -q scripts tests
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Test filled fixtures and safeguards
+        run: python -m unittest discover -s tests -v
+      - name: Audit deterministic invariants
+        run: python scripts/nexus.py audit
+      - name: Generate author cockpit
+        run: python scripts/nexus.py cockpit
+      - name: Build manuscript
+        run: python scripts/nexus.py build
+      - name: Upload reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nexus-audit
+          path: reports/

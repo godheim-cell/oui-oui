@@ -1,1 +1,47 @@
-# Workflow Nexus V5 — reader packs — à adapter au projet Oui-Oui
+name: Nexus V5 reader packs
+
+on:
+  workflow_dispatch:
+    inputs:
+      volume:
+        description: "Volume à préparer (ex. tome-01)"
+        required: true
+        default: "tome-01"
+
+permissions:
+  contents: read
+
+jobs:
+  reader-packs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Generate staged reader packs
+        shell: bash
+        env:
+          VOLUME: ${{ inputs.volume }}
+        run: |
+          set -euo pipefail
+          MANIFEST="manuscrit/${VOLUME}/manifest.txt"
+          test -f "$MANIFEST"
+          COUNT=$(grep -Ev '^\s*(#|$)' "$MANIFEST" | wc -l)
+          test "$COUNT" -gt 0
+          LAST=0
+          for PCT in 25 50 75 100; do
+            THROUGH=$(( (COUNT * PCT + 99) / 100 ))
+            if [ "$THROUGH" -le "$LAST" ]; then
+              continue
+            fi
+            python scripts/nexus.py reader-pack --volume "$VOLUME" --through "$THROUGH"
+            LAST=$THROUGH
+          done
+      - name: Upload reader packs
+        uses: actions/upload-artifact@v4
+        with:
+          name: nexus-${{ inputs.volume }}-reader-packs
+          path: atelier/v3/reader-pack-*.md
