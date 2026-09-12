@@ -1,1 +1,5 @@
-lifecycle: {}
+version: 1
+volumes:
+  tome-01:
+    state: writing
+    history: []

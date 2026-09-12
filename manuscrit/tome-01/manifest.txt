@@ -1,3 +1,12 @@
-Projet: Oui-Oui en vacances au Pays Enchanté
-Format: album illustré jeunesse
-Statut: initialisation
+manuscrit/tome-01/chapitre-01/SCN-001-la-valise.md
+manuscrit/tome-01/chapitre-01/SCN-002-tin-tin-en-route.md
+manuscrit/tome-01/chapitre-01/SCN-003-pouf-voila-zebulon.md
+manuscrit/tome-01/chapitre-01/SCN-004-le-pont-arc-en-ciel.md
+manuscrit/tome-01/chapitre-01/SCN-005-la-foret-tournicoti.md
+manuscrit/tome-01/chapitre-01/SCN-006-l-enigme-de-pollux.md
+manuscrit/tome-01/chapitre-01/SCN-007-les-fleurs-geantes.md
+manuscrit/tome-01/chapitre-01/SCN-008-le-manege-enchante.md
+manuscrit/tome-01/chapitre-01/SCN-009-le-pique-nique-magique.md
+manuscrit/tome-01/chapitre-01/SCN-010-le-cheval-qui-vole.md
+manuscrit/tome-01/chapitre-01/SCN-011-le-plus-beau-moment.md
+manuscrit/tome-01/chapitre-01/SCN-012-a-bientot.md

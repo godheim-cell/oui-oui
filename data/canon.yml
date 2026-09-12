@@ -1,1 +1,17 @@
-canon: []
+meta:
+  status: CANON
+  authority: canonical
+  updated: "2026-09-13"
+principles:
+  - "La magie est douce et bienveillante."
+  - "Les difficultés se résolvent par observation, entraide, politesse ou jeu."
+  - "Chaque page reste lisible pour un enfant de 3 à 6 ans."
+world_rules:
+  - "Les décors peuvent s'animer, chanter, tourner ou briller sans devenir menaçants."
+facts:
+  - "Oui-Oui voyage en voiture pour retrouver ses amis du Manège Enchanté."
+  - "Le voyage se conclut par des retrouvailles heureuses et un retour apaisé."
+prohibitions:
+  - "Pas de menace durable ni d'angoisse forte."
+  - "Pas de surcharge explicative."
+open_questions: []

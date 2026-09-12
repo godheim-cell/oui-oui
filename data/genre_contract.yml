@@ -1,1 +1,22 @@
-genre_contract: {}
+genres:
+  - id: GEN-001
+    name: Album jeunesse illustré 3-6 ans
+    core_promise: "Un voyage merveilleux, rassurant et facile à suivre, avec une forte complémentarité texte-image."
+    reader_expectations:
+      - "Compréhension immédiate"
+      - "Répétitions et sons mémorisables"
+      - "Émotions positives"
+      - "Images très lisibles"
+    obligatory_questions:
+      - "Que veut Oui-Oui sur cette page ?"
+      - "Quel petit changement se produit ?"
+      - "L'image peut-elle raconter une partie de l'action ?"
+    optional_conventions:
+      - "Onomatopées"
+      - "Question directe au jeune lecteur"
+      - "Comptage ou reconnaissance de couleurs"
+    tired_tropes:
+      - "Morale explicitée lourdement"
+      - "Interaction éducative à chaque page"
+    deliberate_transgressions: []
+    comparable_works: []

@@ -1,1 +1,5 @@
-mysteries: []
+mysteries:
+  - id: MYS-001
+    question: "Quelles surprises attendent Oui-Oui sur le chemin spécial de Zébulon ?"
+    stakes: "Entretenir la curiosité sans créer d'inquiétude."
+    status: open

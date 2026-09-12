@@ -1,1 +1,56 @@
-characters: []
+characters:
+  - id: CHR-001
+    name: Oui-Oui
+    role: protagonist
+    status: CANON
+    desire: "Retrouver ses amis et profiter de ses vacances."
+    need: "Découvrir que le voyage prend tout son sens dans le partage."
+    fear: "Se perdre momentanément sur le chemin."
+    contradiction: "Très enthousiaste, il avance parfois avant d'avoir observé."
+    voice: "Simple, joyeuse, curieuse."
+    initial_knowledge: []
+    knowledge: []
+  - id: CHR-002
+    name: Zébulon
+    role: guide
+    status: CANON
+    desire: "Ajouter du jeu et de la surprise au voyage."
+    need: "Guider sans enlever à Oui-Oui le plaisir de découvrir."
+    fear: "not_applicable"
+    contradiction: "Il aide en compliquant gentiment le chemin."
+    voice: "Espiègle et bondissante."
+    initial_knowledge: []
+    knowledge: []
+  - id: CHR-003
+    name: Pollux
+    role: helper
+    status: CANON
+    desire: "Aider Oui-Oui à observer avant d'agir."
+    need: "not_applicable"
+    fear: "not_applicable"
+    contradiction: "Calme dans un monde qui bouge."
+    voice: "Posée et réfléchie."
+    initial_knowledge: []
+    knowledge: []
+  - id: CHR-004
+    name: Margote
+    role: friend
+    status: CANON
+    desire: "Accueillir Oui-Oui chaleureusement."
+    need: "not_applicable"
+    fear: "not_applicable"
+    contradiction: "not_applicable"
+    voice: "Douce et attentive."
+    initial_knowledge: []
+    knowledge: []
+  - id: CHR-005
+    name: Florence
+    role: friend
+    status: CANON
+    desire: "Partager la fête et le manège avec Oui-Oui."
+    need: "not_applicable"
+    fear: "not_applicable"
+    contradiction: "not_applicable"
+    voice: "Souriante et accueillante."
+    initial_knowledge: []
+    knowledge: []

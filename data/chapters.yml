@@ -1,1 +1,11 @@
-chapters: []
+chapters:
+  - id: CHP-001
+    volume: tome-01
+    order: 1
+    title: "Le voyage au Pays Enchanté"
+    promise: "Partir, découvrir et retrouver les amis."
+    engine: "Une nouvelle merveille ou une petite difficulté douce à chaque étape."
+    partial_answer: "Le chemin est aussi important que l'arrivée."
+    cost: "Oui-Oui doit parfois ralentir, observer ou demander de l'aide."
+    next_question: "Quelle sera la prochaine surprise ?"
+    scenes: [SCN-001, SCN-002, SCN-003, SCN-004, SCN-005, SCN-006, SCN-007, SCN-008, SCN-009, SCN-010, SCN-011, SCN-012]

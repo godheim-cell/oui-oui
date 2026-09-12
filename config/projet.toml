@@ -1,6 +1,52 @@
-[projet]
-nom = "oui-oui"
-titre = "Oui-Oui en vacances au Pays Enchanté"
-type = "album_jeunesse_illustre"
-public = "3-6 ans"
-modele = "Nexus V5"
+[project]
+title = "Oui-Oui en vacances au Pays Enchanté"
+subtitle = ""
+author = "AUTEUR"
+language = "fr"
+genre = "album jeunesse illustré"
+intention = "Un voyage joyeux, rassurant et participatif autour de l'amitié, de la découverte et de l'entraide."
+series = "Oui-Oui"
+volume = 1
+status = "writing"
+author_mode = "essential"
+
+[manuscript]
+root = "manuscrit"
+active_volume = "tome-01"
+manifest = "manuscrit/tome-01/manifest.txt"
+output = "publication/manuscrit.md"
+scene_prefix = "SCN"
+
+[quality]
+minimum_scene_words = 20
+maximum_scene_words = 220
+require_scene_change = true
+require_reader_hook = true
+require_pov = true
+require_time = false
+require_location = true
+forbid_placeholder_in_canon = true
+max_author_priorities = 5
+
+[author]
+cockpit = "COCKPIT_AUTEUR.md"
+checkpoint = "data/checkpoint.json"
+revision_dir = "reports/revisions"
+auto_add_new_scene_to_manifest = true
+allow_unknown = true
+
+[governance]
+canon_file = "data/canon.yml"
+decisions_dir = "decisions"
+research_is_non_canon = true
+ai_context_is_derived = true
+
+[publication]
+page_width_cm = 21.0
+page_height_cm = 21.0
+margin_top_cm = 1.2
+margin_bottom_cm = 1.2
+margin_left_cm = 1.2
+margin_right_cm = 1.2
+font = "Liberation Serif"
+font_size_pt = 14.0

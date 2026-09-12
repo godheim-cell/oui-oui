@@ -1,1 +1,13 @@
-themes: []
+themes:
+  - id: THM-001
+    name: Amitié
+    question: "Pourquoi une aventure devient-elle plus belle lorsqu'elle est partagée ?"
+    status: CANON
+  - id: THM-002
+    name: Découverte
+    question: "Comment accueillir l'inconnu avec curiosité sans perdre ses repères ?"
+    status: CANON
+  - id: THM-003
+    name: Entraide
+    question: "Comment demander et accepter de l'aide ?"
+    status: CANON

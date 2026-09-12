@@ -1,1 +1,46 @@
-registry_policy: {}
+version: 1
+updated: "2026-09-12"
+
+registries:
+  data/canon.yml:
+    mode: active
+    required_from: writing
+  data/characters.yml:
+    mode: active
+    required_from: writing
+  data/timeline.yml:
+    mode: active
+    required_from: revision
+  data/knowledge.yml:
+    mode: active
+    required_from: revision
+  data/promises.yml:
+    mode: active
+    required_from: revision
+  data/mysteries.yml:
+    mode: active
+    required_from: writing
+  data/narrative_debt.yml:
+    mode: active
+    required_from: revision
+  data/saga_control.yml:
+    mode: active
+    required_from: revision
+  data/experience_model.yml:
+    mode: active
+    required_from: writing
+  data/reader_profiles.yml:
+    mode: workshop
+    required_from: released
+  data/relationships.yml:
+    mode: dormant
+    required_from: released
+  data/objects.yml:
+    mode: dormant
+    required_from: released
+  data/themes.yml:
+    mode: dormant
+    required_from: released
+  data/motifs.yml:
+    mode: dormant
+    required_from: released

@@ -1,1 +1,37 @@
-locations: []
+locations:
+  - id: LOC-001
+    name: Maison de Oui-Oui
+    parent: null
+    status: CANON
+    constraints: ["Départ rassurant"]
+    sensory_signature: "Lumière claire, valise, petite voiture prête dehors."
+  - id: LOC-002
+    name: Route fleurie
+    parent: null
+    status: CANON
+    constraints: ["Chemin accueillant"]
+    sensory_signature: "Fleurs colorées qui semblent saluer."
+  - id: LOC-003
+    name: Pont arc-en-ciel
+    parent: null
+    status: CANON
+    constraints: ["Chaque roue déclenche une note"]
+    sensory_signature: "Couleurs franches et sons ding-dong."
+  - id: LOC-004
+    name: Forêt tournicoti
+    parent: null
+    status: CANON
+    constraints: ["Les arbres tournent doucement"]
+    sensory_signature: "Mouvement circulaire, feuilles, rythme tournicoti-tournicota."
+  - id: LOC-005
+    name: Champ des fleurs géantes
+    parent: null
+    status: CANON
+    constraints: ["Les fleurs bloquent puis ouvrent le passage"]
+    sensory_signature: "Fleurs immenses, couleurs lumineuses, mouvement de balancier."
+  - id: LOC-006
+    name: Manège Enchanté
+    parent: null
+    status: CANON
+    constraints: ["Lieu de retrouvailles et de fête"]
+    sensory_signature: "Musique légère, chevaux de bois, lumières et coucher de soleil."

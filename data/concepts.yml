@@ -1,1 +1,12 @@
-concepts: []
+concepts:
+  - id: CON-001
+    name: Voyage vers les amis
+    working_definition: "Une succession de découvertes douces dont la véritable récompense est la retrouvaille."
+    rival_definitions: []
+    tensions:
+      - "Curiosité contre risque léger de se perdre."
+      - "Émerveillement contre lisibilité pour les tout-petits."
+    dramatic_tests:
+      - "Chaque obstacle doit être simple, visuel et résolu sans peur."
+    sources: []
+    status: CANON
