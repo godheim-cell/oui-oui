@@ -1,1 +1,8 @@
 arcs: []
+# - id: ARC-001
+#   character: CHR-001
+#   initial_belief: ""
+#   final_belief: ""
+#   price: ""
+#   stages: []
+

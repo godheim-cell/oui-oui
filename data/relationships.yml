@@ -1,1 +1,9 @@
 relationships: []
+# - id: REL-001
+#   a: CHR-001
+#   b: CHR-002
+#   public_state: ""
+#   private_state: ""
+#   tension: ""
+#   last_change: SCN-001
+

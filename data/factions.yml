@@ -1,1 +1,9 @@
 factions: []
+# - id: FAC-001
+#   name: ""
+#   public_goal: ""
+#   actual_goal: ""
+#   internal_conflicts: []
+#   resources: []
+#   limits: []
+

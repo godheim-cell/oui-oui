@@ -1,5 +1,18 @@
 saga:
-  title: "À définir"
+  title: "Oui-Oui en vacances au Pays Enchanté"
   current_volume: "tome-01"
   governing_rule: "Un tome suivant peut recontextualiser une vérité antérieure, jamais l'annuler sans préparation et preuve."
-  volumes: []
+  volumes:
+    - id: "tome-01"
+      title: "Oui-Oui en vacances au Pays Enchanté"
+      status: writing
+      promise: "Un voyage joyeux, rassurant et participatif qui transforme le trajet en suite de petites découvertes amicales."
+      central_question: "Quelles surprises et quels amis Oui-Oui rencontrera-t-il pendant ses vacances au Pays Enchanté ?"
+      hero_transformation: "Oui-Oui transforme son voyage en aventure partagée grâce à la curiosité, la politesse, le jeu et l'entraide."
+      final_cost: "Accepter que les vacances et les retrouvailles ont une fin, puis reprendre la route avec de beaux souvenirs."
+      irreversible_answers:
+        - "Le voyage conduit Oui-Oui jusqu'à ses amis du Manège Enchanté."
+      inherited_debts: []
+      protected_truths:
+        - "Le récit reste doux, rassurant et adapté aux 3–6 ans."
+        - "Les petites péripéties se résolvent sans menace durable par l'observation, la politesse, le jeu ou l'entraide."

@@ -1,1 +1,8 @@
 objects: []
+# - id: OBJ-001
+#   name: Objet
+#   holder: CHR-001
+#   location: LOC-001
+#   state: intact
+#   last_scene: SCN-001
+
