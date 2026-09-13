@@ -1,1 +1,5 @@
-saga_control: {}
+saga:
+  title: "À définir"
+  current_volume: "tome-01"
+  governing_rule: "Un tome suivant peut recontextualiser une vérité antérieure, jamais l'annuler sans préparation et preuve."
+  volumes: []

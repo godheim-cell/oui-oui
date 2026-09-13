@@ -1,1 +1,9 @@
-narrative_debt: []
+debts: []
+# - id: DEBT-001
+#   description: ""
+#   severity: critical
+#   created_by: SCN-001
+#   resolve_before: "acte-3"
+#   status: open
+#   next_test: ""
+

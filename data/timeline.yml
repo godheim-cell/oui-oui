@@ -1,1 +1,10 @@
-timeline: []
+events: []
+# - id: EVT-001
+#   date: "YYYY-MM-DD"
+#   time: "HH:MM"
+#   duration_minutes: 0
+#   location: LOC-001
+#   characters: [CHR-001]
+#   caused_by: []
+#   scene: SCN-001
+

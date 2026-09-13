@@ -1,1 +1,8 @@
 knowledge: []
+# - character: CHR-001
+#   fact: FAC-001
+#   learned_in: SCN-001
+#   confidence: 0.5
+#   interpretation: ""
+#   false_belief: false
+

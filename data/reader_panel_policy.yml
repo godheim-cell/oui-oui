@@ -1,1 +1,49 @@
-reader_panel_policy: {}
+version: 1
+updated: "2026-09-12"
+status: active
+
+simulation:
+  provenance_label: "simulation de profils lecteurs"
+  may_trigger_revision: true
+  may_close_human_review_phase: false
+  may_claim_human_validation: false
+  purpose:
+    - stress_test
+    - anti_overfit_control
+    - hypothesis_generation
+
+human_reading:
+  provenance_label: "lecture humaine"
+  may_trigger_revision: true
+  may_support_human_reception_claims: true
+
+panel:
+  mode: adaptive
+  fixed_size: false
+  selection_basis:
+    - intended_scene_effect
+    - secondary_effects_to_preserve
+    - narrative_risk
+    - density
+    - target_readership
+    - contrast_needed
+  avoid:
+    - "panel composé uniquement de profils favorables au texte"
+    - "sélection après lecture des résultats pour confirmer une conclusion"
+    - "réponses artificiellement déclinées entre profils sans contraste réel"
+
+mystery_profile:
+  enabled: true
+  purpose: "stress-test anti-suradaptation"
+  constraints:
+    - "ne pas utiliser le profil mystère pour concevoir la scène avant le test"
+    - "chercher un contraste réel avec le panel principal"
+    - "ne pas construire un profil artificiellement hostile"
+
+reporting:
+  required_chain: "effet recherché -> provenance -> profils/lecteurs -> réponses -> convergences -> décision éditoriale"
+  decisions:
+    - VALIDER_TECHNIQUEMENT
+    - SURVEILLER
+    - CORRIGER
+    - RETESTER
