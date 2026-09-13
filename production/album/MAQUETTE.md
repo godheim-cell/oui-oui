@@ -1,81 +1,71 @@
-# Maquette de production — album 21 × 21 cm
+# Maquette de production — album jeunesse
 
-## Format de travail
+## Principe prioritaire
 
-- format fini : 210 × 210 mm ;
-- fond perdu recommandé pour impression : 3 mm sur chaque côté ;
-- zone de sécurité : 10 à 12 mm depuis le bord fini ;
-- une illustration principale par page ;
-- texte intégré dans une zone calme prévue dès l'illustration.
+La maquette doit servir une lecture partagée : **l’enfant regarde l’image pendant que l’adulte lit**.
+
+La règle de référence est définie dans :
+`production/album/REGLE_MAQUETTE_INCONTOURNABLE.md`.
+
+Elle prévaut sur toute recommandation antérieure.
+
+## Concept de mise en page retenu
+
+**Grande illustration carrée presque pleine hauteur + rail de lecture extérieur.**
+
+- l’image reste entière et domine visuellement la page ;
+- le texte vit dans un rail séparé ;
+- le rail alterne à droite et à gauche selon la page pour rester sur le bord extérieur d’une double-page reliée ;
+- aucune superposition texte/image n’est autorisée ;
+- aucune troncature de l’image n’est autorisée.
 
 ## Hiérarchie typographique
 
-- titre de couverture : très lisible, 2 lignes maximum ;
-- texte courant : grande taille adaptée à la lecture adulte/enfant ;
-- onomatopées : traitées comme éléments narratifs, pas comme décor illisible ;
-- interactions : courtes et visuellement distinctes sans ressembler à un exercice scolaire.
+- titre de page : clairement distinct, court et très lisible ;
+- texte courant : dimension confortable pour un adulte lisant à voix haute ;
+- dialogues : aérés ;
+- onomatopées : conservées comme éléments narratifs ;
+- interactions enfant : isolées dans un encadré dédié.
 
-## Découpage recommandé
+## Densité
 
-### Couverture
-Image de voyage complète + titre dans la partie haute.
+Si une page est trop chargée :
 
-### Page 1
-Texte en haut gauche ; Oui-Oui et la valise au centre/droite.
+1. raccourcir ou resserrer le texte ;
+2. simplifier les répétitions non indispensables ;
+3. augmenter intelligemment la largeur du rail ;
+4. recomposer la page.
 
-### Page 2
-Route traversante ; texte dans le ciel ; « TIN-TIN ! » proche de la voiture.
+Ne jamais résoudre un problème de densité en recouvrant l’image, en la tronquant ou en réduisant exagérément la police.
 
-### Page 3
-Zébulon au centre ; texte réparti sur deux zones calmes pour préserver le « POUF ! ».
+## Continuité visuelle
 
-### Page 4
-Pont en diagonale ; texte au-dessus du paysage ; notes musicales intégrées à l'image.
+Conserver d’une page à l’autre :
 
-### Page 5
-Texte en haut ; arbres tournants autour d'un espace central clair.
+- proportions et apparence des personnages ;
+- apparence de la voiture ;
+- palette et niveau de saturation ;
+- progression lumineuse de la journée ;
+- logique stable image dominante / rail de lecture.
 
-### Page 6
-Composition plus frontale ; texte au-dessus ; trois panneaux visibles sans recouvrement.
+## Contrôle avant export
 
-### Page 7
-Texte dans le ciel ou une trouée de feuillage ; fleurs géantes sur les côtés.
+Rejeter toute page si :
 
-### Page 8
-Grande scène d'arrivée ; texte sur zone claire proche du haut ; personnages non masqués.
-
-### Page 9
-Cadrage de proximité ; texte dans une zone d'herbe/ciel ; étoiles à compter dégagées.
-
-### Page 10
-Panorama aérien ; texte dans le ciel, à l'opposé du cheval.
-
-### Page 11
-Ciel dominant ; texte dans la zone supérieure ; silhouettes dans le tiers inférieur.
-
-### Page 12
-Route en profondeur ; texte dans le ciel nocturne clair ; « Tin-tin ! » près de la voiture.
-
-## Rythme des pages
-
-Alterner :
-
-- gros plans émotionnels ;
-- plans moyens d'action ;
-- grandes ouvertures de découverte.
-
-Éviter deux panoramas consécutifs avant la page 10. Les pages 10 et 11 forment volontairement un duo « envol / respiration ».
-
-## Contrôle texte-image
-
-Le texte ne doit jamais décrire inutilement ce que l'image montre déjà. Quand l'image porte l'information visuelle, le texte doit porter rythme, son, intention ou émotion.
+- le texte masque l’image ;
+- l’image est tronquée ;
+- le visuel n’est plus dominant ;
+- le texte est trop petit ou mal cadré ;
+- la fin du texte sort de sa zone ;
+- la logique de lecture diffère sans raison d’une page à l’autre.
 
 ## Préparation impression
 
-Avant export final :
+Avant un export destiné à l’impression :
 
-- vérifier fonds perdus ;
-- convertir les images dans l'espace colorimétrique demandé par l'imprimeur ;
-- vérifier résolution effective ;
-- contrôler les noirs, transparences et polices incorporées ;
-- relire le PDF page par page à 100 % et en vue miniature.
+- définir le format fini et la reliure avec l’imprimeur ;
+- appliquer les fonds perdus requis ;
+- respecter les zones de sécurité ;
+- vérifier résolution effective, espace colorimétrique et polices incorporées ;
+- relire le PDF à 100 % et en vue miniature ;
+- contrôler les doubles pages comme un ensemble.
