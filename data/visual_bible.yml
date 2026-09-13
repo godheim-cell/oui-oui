@@ -1,0 +1,41 @@
+version: 1
+project: "Oui-Oui en vacances au Pays Enchanté"
+format:
+  width_cm: 21
+  height_cm: 21
+  audience: "3-6 ans"
+visual_contract:
+  mood: [doux, joyeux, lumineux, rassurant]
+  shapes: "rondes et lisibles"
+  detail_level: "modéré"
+  text_safe_area_percent: 25
+  max_visual_foci: 3
+continuity:
+  protagonist:
+    id: CHR-001
+    rules:
+      - "tenue et bonnet constants"
+      - "proportions stables"
+      - "expression immédiatement lisible"
+  vehicle:
+    name: "petite voiture jaune et rouge"
+    rules:
+      - "forme et proportions constantes"
+      - "orientation cohérente avec le déplacement"
+      - "klaxon associé au motif Tin-tin"
+  magic:
+    motifs: [paillettes, bulles, étoiles, lumière douce]
+    forbidden: [menace, noirceur, énergie agressive]
+scene_palette:
+  SCN-001: [jaune, rouge, bleu_clair, vert_tendre]
+  SCN-002: [vert, jaune, rouge, bleu]
+  SCN-003: [or_doux, violet_clair, bleu]
+  SCN-004: [rouge, orange, jaune, vert, bleu, violet]
+  SCN-005: [vert_tendre, turquoise, brun_clair]
+  SCN-006: [vert, bleu, rouge, jaune]
+  SCN-007: [rose, jaune, vert, blanc]
+  SCN-008: [or, rouge, bleu, crème]
+  SCN-009: [pastels_multicolores, blanc, vert]
+  SCN-010: [bleu_ciel, blanc, arc_en_ciel]
+  SCN-011: [orange, rose, violet]
+  SCN-012: [bleu_nuit_clair, violet, jaune_étoile]
